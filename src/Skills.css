@@ -1,0 +1,44 @@
+
+.info-box-hover {
+  display: flex;
+  justify-content: center; /* Centers items vertically */
+  text-align: center; /* Centers items horizontally */
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  animation-name: info-box-animation;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.skills-container {
+  order: 5;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+@keyframes info-box-animation {
+  from {background-color: rgb(244, 244, 255);
+        width: 20vw;
+        height: 40vh;}
+  to {background-color: rgb(229, 229, 255);
+      width: 30vw;
+      height: 50vh;}
+}
+
+@keyframes info-box-animation-reverse {
+  from {
+    background-color: rgb(229, 229, 255);
+    width: 30vw;
+    height: 50vh;
+  }
+  to {
+    background-color: rgb(244, 244, 255);
+    width: 20vw;
+    height: 40vh;
+  }
+}

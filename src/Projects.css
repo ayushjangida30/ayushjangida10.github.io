@@ -1,0 +1,101 @@
+.project-info-heading {
+  color: black;
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 100px;
+}
+
+.project-info-container  {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 0.6;
+  padding: 5px;
+  margin-bottom: 15px;
+  background-color: rgb(255,186,186);
+}
+
+.project-info-container:hover  {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 0.6;
+  animation-name: project-info-container-animation;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.project-info-container:not(:hover)  {
+  animation-name: project-info-container-animation-reverse;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.project-info-box-container {
+  display: flex;
+  flex: 0.25;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.project-info-box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  width: 20vw;
+  height: 40vh;
+  justify-content: center; /* Centers items vertically */
+  text-align: center; /* Centers items horizontally */
+  align-items: center;
+  background-color: rgb(244, 244, 255)
+}
+
+.project-info-box:hover {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center; /* Centers items vertically */
+  text-align: center; /* Centers items horizontally */
+  align-items: center;
+  animation-name: project-box-animation;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.project-info-box:not(:hover) {
+  animation-name: project-box-animation-reverse;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes project-box-animation {
+  from {background-color: rgb(244, 244, 255);
+        width: 20vw;
+        height: 40vh;}
+  to {background-color: rgb(229, 229, 255);
+      width: 50vw;
+      height: 60vh;}
+}
+
+@keyframes project-box-animation-reverse {
+  from {background-color: rgb(229, 229, 255);
+      width: 50vw;
+      height: 60vh;}
+
+  to {background-color: rgb(244, 244, 255);
+        width: 20vw;
+        height: 40vh;}
+}
+
+@keyframes project-info-container-animation {
+  from {background-color: rgb(255,186,186);}
+  to {background-color: rgb(255, 166, 166);}
+}
+
+@keyframes project-info-container-animation-reverse {
+  from {background-color: rgb(255, 166, 166);}
+  to {background-color: rgb(255,186,186);}
+}

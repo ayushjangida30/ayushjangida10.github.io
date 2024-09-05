@@ -1,0 +1,15 @@
+.sidebar-li {
+    margin-bottom: 50px;
+    list-style-type: none;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.sidebar-li:hover {
+    font-weight: 600;
+}
+
+.sidebar-li.active {
+    background-color: #007bff; /* Active item background color */
+    color: white; /* Active item text color */
+  }

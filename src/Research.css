@@ -1,0 +1,56 @@
+.research-info-container  {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 0.6;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.research-photo-container  {
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.research-info-photo-container  {
+    display: flex;
+}
+
+.research-info-date  {
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.research-info-title {
+    color: black;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.research-info-subtitle  {
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.research-info-techstack {
+    color: black;
+    font-size: 15px;
+    font-weight: 450;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.research-info-pointer {
+    color:grey;
+    font-size: 17px;
+    font-weight: 350;
+    line-height: 1.2;
+}
