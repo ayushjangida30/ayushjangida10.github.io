@@ -5,6 +5,70 @@
     font-weight: 400;
 }
 
+.sidebar-li-top {
+    list-style-type: none;
+    opacity: 0;
+    margin-left: 10px;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.sidebar-li-top-show {
+    list-style-type: none;
+    opacity: 0.6;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    transform: translateY(0); /* Move to the original position */
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.sidebar-li-bottom {
+    list-style-type: none;
+    opacity: 0;
+    margin-left: 10px;
+    transform: translateY(-60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.sidebar-li-bottom-show {
+    list-style-type: none;
+    opacity: 0.6;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    transform: translateY(0); /* Move to the original position */
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.sidebar-li-middle-bottom {
+    list-style-type: none;
+    opacity: 0;
+    margin-left: 20px;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.sidebar-li-middle-top {
+    list-style-type: none;
+    opacity: 0;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 800;
+    transform: translateY(-60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.sidebar-li-middle-show {
+    list-style-type: none;
+    opacity: 1;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 800;
+    transform: translateY(0); /* Move to the original position */
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
 .sidebar-li:hover {
     font-weight: 600;
 }
@@ -13,3 +77,25 @@
     background-color: #007bff; /* Active item background color */
     color: white; /* Active item text color */
   }
+
+.sidebar-top-container  {
+    order: 1;
+    height: 15vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebar-middle-container  {
+    order: 2;
+    height: 43.5vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebar-bottom-container  {
+    order: 3;
+    height: 0vh;
+    flex-direction: column;
+    justify-content: center;
+}
+

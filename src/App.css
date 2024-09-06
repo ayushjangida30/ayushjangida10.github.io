@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 10px;
 }
 
 .App-logo {
@@ -84,7 +85,9 @@
   justify-content: center; /* Centers items vertically */
   justify-content: center; /* Centers items horizontally */
   align-items: center;
-  min-height: 100vh;
+  min-height: 100vh; 
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .education-container  {
@@ -106,6 +109,8 @@
   width: 100vw;
   padding-left: 160px;
   padding-right: 160px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .research-container {
@@ -116,6 +121,8 @@
   width: 100vw;
   padding-left: 160px;
   padding-right: 160px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .skills-container {
@@ -126,6 +133,8 @@
   width: 100vw;
   padding-left: 160px;
   padding-right: 160px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .project-container  {
@@ -240,6 +249,8 @@
   text-align: center; /* Optional: Center text inside containers */
   padding-left: 160px;
   padding-right: 160px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .game-container  {
@@ -250,6 +261,8 @@
   width: 100vw;
   padding-left: 160px;
   padding-right: 160px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .music-container  {
@@ -260,6 +273,8 @@
   width: 100vw;
   padding-left: 160px;
   padding-right: 160px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .project-box  {
@@ -284,6 +299,9 @@
 .parent {
   display: flex;
   width: 100%;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .sidebar  {
@@ -291,14 +309,12 @@
   order: 1;
   flex: 0.4;
   width: 10vw;
-  height: 100vh;
-  background-color: rgb(238, 255, 255);
 }
 
 .sidebar-container {
   display: flex; /* Enable flexbox */
+  margin: 5px;
   flex-direction: column;
-  justify-content: center; /* Center horizontally */
   height: 100vh; /* Full height of the viewport */
 }
 
@@ -306,7 +322,8 @@
   order: 2;
   flex: 0.6;
   width: 85vw;
-  margin-left: 10vw;
+  margin-left: 15vw;
+  padding: 10px;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;

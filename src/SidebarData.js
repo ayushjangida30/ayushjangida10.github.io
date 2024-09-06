@@ -9,7 +9,7 @@ export const SidebarData = [
     },
 
     {
-        title: "About",
+        title: "About Me",
         href: '#about',
         section: 'about'
     },
@@ -45,13 +45,13 @@ export const SidebarData = [
     },
 
     {
-        title: "Games",
+        title: "My Games",
         href: "#games",
         section: "games"
     },
 
     {
-        title: "Music",
+        title: "My Music",
         href: "#music",
         section: "music"
     },
