@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import './Experience.css';
 
 function Experience() {
   return (
-    <div id='experience' className='experience-container' style={{marginBottom: '30px'}}>
-        <h3 className='info-heading'>Experience</h3>
+    <div id='experience' className='experience-container'>
 
-        <div className='info-container'>
+        <div className='experience-info-container'>
             <p className='info-date'>September 2023 - December 2023</p>
             <p className='info-title'>Associate Software Developer, Co-op</p>
             <p className='info-subtitle'>HP, Burnaby, BC, Canada</p>
@@ -32,7 +32,7 @@ function Experience() {
         </div>
 
 
-        <div className='info-container'>
+        <div className='experience-info-container'>
             <p className='info-date'>June 2023 - August 2023</p>
             <p className='info-title'>IT Developer, Co-op</p>
             <p className='info-subtitle'>BC Ferries, Victoria, BC, Canada</p>
@@ -53,7 +53,7 @@ function Experience() {
             </ul>
         </div>
 
-        <div className='info-container'>
+        <div className='experience-info-container'>
             <p className='info-date'>May 2022 - September 2022</p>
             <p className='info-title'>Research Intern</p>
             <p className='info-subtitle'>LlamaZoo, Victoria, BC, Canada</p>
@@ -74,7 +74,7 @@ function Experience() {
             </ul>
         </div>
 
-        <div className='info-container'>
+        <div className='experience-info-container'>
             <p className='info-date'>January 2022 - April 2022 | January 2023 - April 2023</p>
             <p className='info-title'>Teaching Assistant - Introduction to Computer Graphics</p>
             <p className='info-subtitle'>University of Victoria, Victoria, BC, Canada</p>
@@ -92,7 +92,7 @@ function Experience() {
             </ul>
         </div>
 
-        <div className='info-container'>
+        <div className='experience-info-container'>
             <p className='info-date'>June 2019 - May 2020</p>
             <p className='info-title'>Software Developer Intern</p>
             <p className='info-subtitle'>RSva Solutions, Mumbai, India</p>

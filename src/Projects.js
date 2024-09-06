@@ -13,7 +13,6 @@ function Projects() {
 
   return (
     <div id='projects' className='project-container'>
-        <h3 className='project-info-heading'>PROJECTS</h3>
         <div className='project-info-box-container' style={{padding: '10px'}}>
 
             <div className='project-info-box' onMouseEnter={() => setAndroidHovered(true)} onMouseLeave={() => setAndroidHovered(false)}>

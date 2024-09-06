@@ -1,0 +1,8 @@
+.experience-info-container  {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 0.6;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
