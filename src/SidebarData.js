@@ -3,55 +3,55 @@ import './Research.css';
 
 export const SidebarData = [
     {
-        title: "Home",
+        title: "HOME",
         href: '#home',
         section: 'home'
     },
 
     {
-        title: "About Me",
+        title: "ABOUT ME",
         href: '#about',
         section: 'about'
     },
 
     {
-        title: "Education",
+        title: "EDUCATION",
         href: "#education",
         section: "education"
     },
 
     {
-        title: "Experience",
+        title: "EXPERIENCE",
         href: "#experience",
         section: "experience"
     },
 
     {
-        title: "Research",
+        title: "RESEARCH",
         href: "#research",
         section: "research"
     },
 
     {
-        title: "Skills",
+        title: "SKILLS",
         href: "#skills",
         section: "skills"
     },
 
     {
-        title: "Projects",
+        title: "PROJECTS",
         href: "#projects",
         section: "projects"
     },
 
     {
-        title: "My Games",
+        title: "MY GAMES",
         href: "#games",
         section: "games"
     },
 
     {
-        title: "My Music",
+        title: "MY MUSIC",
         href: "#music",
         section: "music"
     },
