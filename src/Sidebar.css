@@ -86,9 +86,9 @@
     list-style-type: none;
     opacity: 0;
     margin-left: 20px;
-    transform: translateY(60px);
+    transform: translateY(20px);
     pointer-events: none;
-    transition: opacity 0.8s ease, transform 0.8s ease;
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .sidebar-li-middle-top {
@@ -97,9 +97,9 @@
     margin-left: 20px;
     font-size: 30px;
     font-weight: 800;
-    transform: translateY(-60px);
+    transform: translateY(-20px);
     pointer-events: none;
-    transition: opacity 0.8s ease, transform 0.8s ease;
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .sidebar-li-middle-show {
@@ -110,7 +110,7 @@
     font-size: 34px;
     font-weight: 1000;
     transform: translateY(0); /* Move to the original position */
-    transition: opacity 0.8s ease, transform 0.8s ease;
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .sidebar-li:hover {
