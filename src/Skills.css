@@ -11,6 +11,15 @@
   animation-fill-mode: forwards;
 }
 
+.skills-info-box-container {
+  display: flex;
+  flex: 0.25;
+  margin-top: 160px;
+  margin-left: 75px;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
 .skills-container {
   order: 5;
   display: flex;

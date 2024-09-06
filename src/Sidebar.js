@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 const handleClick = (event, targetId) => {
     event.preventDefault();
     const targetElement = document.getElementById(targetId);
+    console.log(targetElement); 
     if (targetElement) {
         targetElement.scrollIntoView({ behavior: 'smooth' });
     } else {

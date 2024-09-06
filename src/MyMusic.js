@@ -8,7 +8,6 @@ function MyMusic() {
 
     return (
     <div id='music' className='music-container'>
-        <h3 className='music-info-heading'>MY MUSIC</h3>
         <div className='music-soundcloud-container'>
             <iframe width="100%" height="300" frameborder="no" allow="autoplay"
              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1159205971&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>

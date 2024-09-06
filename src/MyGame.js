@@ -21,7 +21,6 @@ function MyGame() {
     return (
     <div id='games' className='game-container'>
         <div className='mygame-heading-container'>
-            <h3 className='mygame-info-heading'>MY GAMES</h3>
             <p className='mygame-name' onClick={() => handSetLink(1)}>Falling Bricks</p>
             <p className='mygame-name' onClick={() => handSetLink(2)}>Mole in a Hole</p>
         </div>

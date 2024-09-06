@@ -4,10 +4,9 @@ import Uvic from './Content/UVIC.png';
 
 function Education() {
   return (
-    <div id='education' className='education-container' style={{marginBottom: '30px'}}>
-        <h3 className='info-heading'>Education</h3>
+    <div id='education' className='education-container'>
 
-        <div className='info-container'>
+        <div className='info-container' style={{marginTop: '60px'}}>
             <p className='info-date'>September 2021 - April 2024</p>
             <p className='info-title'>Master of Science - Computer Science</p>
             <p className='info-sub-title'>University of Victoria, British Columbia, Canada</p>
