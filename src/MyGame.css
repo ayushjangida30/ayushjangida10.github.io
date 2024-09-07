@@ -1,6 +1,8 @@
 .mygame-heading-container   {
     display: flex;
-
+    justify-content: center; /* Centers items vertically */
+    text-align: center; /* Centers items horizontally */
+    align-items: center;
 }
 
 .mygame-info-heading {
@@ -26,4 +28,5 @@
     justify-content: center; /* Centers items vertically */
     text-align: center; /* Centers items horizontally */
     align-items: center;
+    padding-left: 60px;
 }
