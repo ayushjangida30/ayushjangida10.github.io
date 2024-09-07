@@ -78,7 +78,7 @@ function Sidebar() {
 
 
                 return (
-                        <li key={key} className={`sidebar-li-middle${isSection ? '-show' : isSectionPast ? '-top' : '-bottom'}`}>
+                        <li key={key} className={`sidebar-li-middle-${isSectionPast ? 'top' : 'bottom'}${isSection ? '-show' : ''}`}>
                             <a 
                                 href={`${val.section}`} 
                                 onClick={(e) => handleClick(e, val.section)}

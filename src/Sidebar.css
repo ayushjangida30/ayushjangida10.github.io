@@ -50,6 +50,7 @@
     opacity: 0;
     margin-left: 10px;
     transform: translateY(-60px);
+    pointer-events: none;
     transition: opacity 0.8s ease, transform 0.8s ease;
 }
 .sidebar-li-bottom-show {
@@ -85,42 +86,55 @@
 .sidebar-li-middle-bottom {
     list-style-type: none;
     opacity: 0;
-    margin-left: 20px;
-    transform: translateY(20px);
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    transform: translateY(40px) scale(1); /* Scale for size change */
     pointer-events: none;
+    transition: opacity 0.9s ease, transform 0.8s ease;
+}
+
+/* Active state (show) */
+.sidebar-li-middle-top-show {
+    list-style-type: none;
+    opacity: 1;
+    margin-left: 10px;
+    font-size: 34px;
+    font-weight: 1000;
+    transform: translateY(0); /* Scale to simulate font-size change */
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.sidebar-li-middle-bottom-show {
+    list-style-type: none;
+    opacity: 1;
+    margin-left: 10px;
+    font-size: 34px;
+    font-weight: 1000;
+    transform: translateY(0); /* Scale to simulate font-size change */
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .sidebar-li-middle-top {
     list-style-type: none;
     opacity: 0;
-    margin-left: 20px;
-    font-size: 30px;
-    font-weight: 800;
-    transform: translateY(-20px);
+    margin-left: 10px;
+    font-size: 34px;
+    font-weight: 1000;
+    transform: translateY(-40px);
     pointer-events: none;
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
-.sidebar-li-middle-show {
+.sidebar-li-middle-bottom {
     list-style-type: none;
-    opacity: 1;
-    text-transform: uppercase;
-    margin-left: 20px;
+    opacity: 0;
+    margin-left: 10px;
     font-size: 34px;
     font-weight: 1000;
-    transform: translateY(0); /* Move to the original position */
+    transform: translateY(40px); /* Scale for size change */
+    pointer-events: none;
     transition: opacity 0.6s ease, transform 0.6s ease;
-}
-
-.sidebar-li-middle-show:hover{
-    padding-left: 10px;
-    transition: padding 0.8s ease;
-}
-
-.sidebar-li-middle-show:not(:hover){
-    padding-left: 0;
-    transition: padding 0.8s ease;
 }
 
 .sidebar-li:hover {

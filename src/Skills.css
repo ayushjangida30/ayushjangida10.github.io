@@ -20,16 +20,6 @@
   align-items: center; /* Center horizontally */
 }
 
-.skills-container {
-  order: 5;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  padding-left: 160px;
-  padding-right: 160px;
-}
-
 @keyframes info-box-animation {
   from {background-color: rgb(244, 244, 255);
         width: 20vw;

@@ -2,11 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import './Research.css';
 import eye from './Content/eye.png';
+import {ResearchImages} from './ResearchImages'; 
 
 function Research() {
   return (
     <div id='research' className='research-container' style={{marginBottom: '30px'}}>
-        <h3 className='info-heading'>RESEARCH ON SPATIAL DATA PERCEPTION IN 2D AND 3D SPACE</h3>
+        <h3 className='research-info-heading' style={{textTransform: 'uppercase'}}>Investigating variations and combinations of geospatial visualizations based on spatial dimensionality of attribute space and reference space</h3>
 
         <div className='research-info-photo-container'>
             <div className='research-info-container'>
@@ -31,7 +32,7 @@ function Research() {
             </div>
 
             <div className='research-photo-container'>
-                <img src={eye} alt='A description of the photo' style={{ width: '300px', height: 'auto', }}/>
+                <img src='./Content/eye.png' alt='A description of the photo' style={{ width: '300px', height: 'auto', }}/>
             </div>
         </div>
     </div>

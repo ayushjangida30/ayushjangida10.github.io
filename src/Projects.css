@@ -16,27 +16,12 @@
   background-color: rgb(255,186,186);
 }
 
-.project-info-container:hover  {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  line-height: 0.6;
-  animation-name: project-info-container-animation;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.project-info-container:not(:hover)  {
-  animation-name: project-info-container-animation-reverse;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}
-
 .project-info-box-container {
-  display: flex;
-  flex: 0.25;
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-rows: 1fr 1fr; /* Two equal rows */
+  justify-items: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 .project-info-box {
@@ -44,31 +29,31 @@
   flex-direction: column;
   padding: 10px;
   margin: 10px;
-  width: 20vw;
+  width: 30vw;
   height: 40vh;
   justify-content: center; /* Centers items vertically */
   text-align: center; /* Centers items horizontally */
   align-items: center;
-  background-color: rgb(244, 244, 255)
+  background-color: rgb(244, 244, 255);
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background color and transform */
 }
 
-.project-info-box:hover {
+.project-info-box-hover {
+  cursor: pointer;
   display: flex;
+  pointer-events: all;
+  flex-direction: column;
   padding: 10px;
   margin: 10px;
+  width: 30vw;
+  height: 40vh;
   justify-content: center; /* Centers items vertically */
   text-align: center; /* Centers items horizontally */
   align-items: center;
-  animation-name: project-box-animation;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
+  background-color: rgb(200, 200, 255); /* Example change on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background color and transform */
 }
 
-.project-info-box:not(:hover) {
-  animation-name: project-box-animation-reverse;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}
 
 
 @keyframes project-box-animation {
