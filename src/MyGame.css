@@ -23,6 +23,16 @@
     margin-bottom: 20px;
 }
 
+.mygame-name-selected    {
+    cursor: pointer;
+    flex: 0.33;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
 .mygame-container   {
     display: flex;
     justify-content: center; /* Centers items vertically */
