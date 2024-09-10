@@ -113,10 +113,10 @@ function Sidebar() {
         <a href="https://github.com/ayushjangida30" target="_blank" rel="noopener noreferrer" style={{
             position: 'fixed',
             bottom: '1rem',   // Adjust as needed
-            left: '1.5rem',     // Adjust as needed
+            left: '1.2rem',     // Adjust as needed
             zIndex: 1000       // Ensure it appears on top of other content
         }}>
-            <i className="fab fa-github" style={{ fontSize: '2.5rem', color: '#000'}}></i>
+            <i className="fab fa-github" style={{ fontSize: '1.8rem', color: '#000'}}></i>
         </a>
 
         <a 
@@ -126,11 +126,23 @@ function Sidebar() {
             style={{
             position: 'fixed',
             bottom: '1rem',  // Adjust as needed
-            left: '4.5rem',    // Adjust as needed
+            left: '3.5rem',    // Adjust as needed
             zIndex: 1000
             }}
         >
-            <i className="fab fa-linkedin" style={{ fontSize: '2.5rem', color: '#0077b5' }}></i>
+            <i className="fab fa-linkedin" style={{ fontSize: '1.8rem', color: '#0077b5' }}></i>
+        </a>
+
+        <a 
+            href="mailto:ajangida30@gmail.com" 
+            style={{
+            position: 'fixed',
+            bottom: '1rem',  // Adjust as needed
+            left: '5.8rem',    // Adjust as needed, ensuring it's not overlapping with other icons
+            zIndex: 1000
+            }}
+        >
+            <i className="fas fa-envelope" style={{ fontSize: '1.8rem', color: '#D93025' }}></i>
         </a>
     </div>
   );
