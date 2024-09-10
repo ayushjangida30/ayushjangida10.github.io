@@ -3,8 +3,21 @@ import './App.css';
 import './Research.css';
 import eye from './Content/eye.png';
 import {ResearchImages} from './ResearchImages'; 
+import React, { useState, useEffect } from 'react';
 
 function Research() {
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const intervalTime = 3000;
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+          setCurrentIndex((prevIndex) => (prevIndex + 1) % ResearchImages.length);
+        }, intervalTime);
+    
+        return () => clearInterval(intervalId); // Clean up on unmount
+    }, [currentIndex]); // Empty dependency array ensures this runs only once
+    
+
   return (
     <div id='research' className='research-container' style={{marginBottom: '30px'}}>
         <h3 className='research-info-heading' style={{textTransform: 'uppercase'}}>Investigating variations and combinations of geospatial visualizations based on spatial dimensionality of attribute space and reference space</h3>
@@ -32,7 +45,15 @@ function Research() {
             </div>
 
             <div className='research-photo-container'>
-                <img src='./Content/eye.png' alt='A description of the photo' style={{ width: '300px', height: 'auto', }}/>
+                {
+                    ResearchImages.map((val, index) => {
+                        console.log(val.src);
+
+                        return (
+                            <img key={index} src={val.src} alt={val.title} className={`image${index === currentIndex ? '-active' : '-inactive'}`} style={{ zIndex: ResearchImages.length - index }}/>
+                        )
+                    })
+                }
             </div>
         </div>
     </div>

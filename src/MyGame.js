@@ -5,7 +5,7 @@ import './MyGame.css';
 import React, { useState } from 'react';
 
 function MyGame() {
-    const [link, setLink] = useState("https://itch.io/embed-upload/10897415?color=333333");
+    const [link, setLink] = useState("https://itch.io/embed-upload/10897347?color=333333");
     const [number, setNumber] = useState(1);
 
     const handSetLink = (linkId) => {

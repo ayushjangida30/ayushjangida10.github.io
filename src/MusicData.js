@@ -6,7 +6,7 @@ export const MusicData = [
 
     {
         name: 'Theme Song',
-        src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1085525143&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1159205971&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
+        src: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1085525143&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true',
     },
 
     {

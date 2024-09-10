@@ -2,7 +2,7 @@ import setup from './Content/setup.png';
 import landscape from './Content/landscape.png';
 import eyeTrackerMonitor from './Content/eyetracker-monitor.png';
 
-export const ResearchImage = [
+export const ResearchImages = [
     {
         title: 'Research Setup',
         src: setup,

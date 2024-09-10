@@ -6,18 +6,19 @@
     line-height: 0.6;
     margin: 0;
     padding: 0;
-    margin-bottom: 100px;
+    padding-top: 5rem;
 }
 
 .research-info-heading  {
     font-size: 30px;
     font-weight: 700;
     margin: 0;
-    padding-bottom: 60px;
+    padding-bottom: 1rem;
 }
 
 .research-photo-container  {
     flex: 0.4;
+    padding-left: 7rem;
     display: flex;
     justify-content: center;
     height: 100%;
@@ -61,3 +62,21 @@
     font-weight: 350;
     line-height: 1.2;
 }
+
+.image-active, .image-inactive {
+    max-width: 100%; /* Prevents image from exceeding the container's width */
+    position: absolute;
+    width: 600px;       /* Set desired width for the container */
+    height: 480px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .image-inactive {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  
+  .image-active {
+    opacity: 1;
+    transform: scale(1);
+  }
