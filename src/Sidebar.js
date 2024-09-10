@@ -109,6 +109,29 @@ function Sidebar() {
                 );
             })}
         </div>
+
+        <a href="https://github.com/ayushjangida30" target="_blank" rel="noopener noreferrer" style={{
+            position: 'fixed',
+            bottom: '1rem',   // Adjust as needed
+            left: '1.5rem',     // Adjust as needed
+            zIndex: 1000       // Ensure it appears on top of other content
+        }}>
+            <i className="fab fa-github" style={{ fontSize: '2.5rem', color: '#000'}}></i>
+        </a>
+
+        <a 
+            href="https://www.linkedin.com/in/ayush-jangida/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{
+            position: 'fixed',
+            bottom: '1rem',  // Adjust as needed
+            left: '4.5rem',    // Adjust as needed
+            zIndex: 1000
+            }}
+        >
+            <i className="fab fa-linkedin" style={{ fontSize: '2.5rem', color: '#0077b5' }}></i>
+        </a>
     </div>
   );
 }
