@@ -126,17 +126,6 @@
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
-.sidebar-li-middle-bottom {
-    list-style-type: none;
-    opacity: 0;
-    margin-left: 10px;
-    font-size: 34px;
-    font-weight: 1000;
-    transform: translateY(40px); /* Scale for size change */
-    pointer-events: none;
-    transition: opacity 0.6s ease, transform 0.6s ease;
-}
-
 .sidebar-li:hover {
     font-weight: 600;
 }

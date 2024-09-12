@@ -55,7 +55,7 @@ function Sidebar() {
         <div className='sidebar-top-container'>
             {SidebarData.map((val, key) => {
                 const isSectionPast = topSection[val.section];
-
+                
                 return (
                         <li key={key} className={`sidebar-li-top${isSectionPast ? '-show' : ''}`}>
                             <a 

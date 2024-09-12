@@ -28,14 +28,11 @@ function MyGame() {
             <p className={number === 1 ? 'mygame-name-selected' : 'mygame-name'} onClick={() => handSetLink(1)}>Falling Bricks</p>
             <p className={number === 2 ? 'mygame-name-selected' : 'mygame-name'} onClick={() => handSetLink(2)}>Mole in a Hole</p>
         </div>
-        <div className='mygame-container'>
+        <div class="iframe-container">
             <iframe 
-            frameborder="0" 
-            src={link} 
-            allowfullscreen 
-            width="1000" 
-            height="600">
-            </iframe>
+                src={link} 
+                allowfullscreen
+            ></iframe>
         </div>
     </div>
     

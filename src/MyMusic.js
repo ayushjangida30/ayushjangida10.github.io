@@ -10,8 +10,8 @@ import MusicCard from './MusicCard';
 function MyMusic() {
 
     return (
-    <div className='music-container'>
-        <div id='music' className='music-grid-container'>
+    <div id='music' className='music-container'>
+        <div className='music-grid-container'>
             {
                 MusicData.map((val, key) => {
                     return  (
