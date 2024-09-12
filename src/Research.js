@@ -7,7 +7,7 @@ import React, { useState, useEffect } from 'react';
 
 function Research() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const intervalTime = 3000;
+    const intervalTime = 5000;
 
     useEffect(() => {
         const intervalId = setInterval(() => {
