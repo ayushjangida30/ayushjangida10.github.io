@@ -10,14 +10,16 @@ import MusicCard from './MusicCard';
 function MyMusic() {
 
     return (
-    <div id='music' className='music-container'>
-        {
-            MusicData.map((val, key) => {
-                return  (
-                    <MusicCard key ={key} source={val.src} />
-                )
-            })
-        }
+    <div className='music-container'>
+        <div id='music' className='music-grid-container'>
+            {
+                MusicData.map((val, key) => {
+                    return  (
+                        <MusicCard key ={key} source={val.src} />
+                    )
+                })
+            }
+        </div>
     </div>
     
   );
