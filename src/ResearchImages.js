@@ -2,6 +2,7 @@ import setup from './Content/setup.png';
 import landscape from './Content/landscape.png';
 import eyeTrackerMonitor from './Content/eyetracker-monitor.png';
 import sixView from './Content/six-view.png';
+import giConference from './Content/gi_conference.jpg'
 
 export const ResearchImages = [
     {
@@ -22,5 +23,10 @@ export const ResearchImages = [
     {
         title: 'Six Views',
         src: sixView,
+    },
+
+    {
+        title: 'GI Conference',
+        src: giConference,
     },
 ]
